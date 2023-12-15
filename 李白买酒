@@ -1,0 +1,25 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+	double x=0 ;                    //0斗酒
+	int count = 0;           //遇到店的次数
+	int flowercount = 0; //遇到花的次数
+
+	while (1) {
+		x++;
+		flowercount++;
+
+		x =  x/2 ;
+		count++;
+
+		
+
+		if (count == 3 && flowercount == 3) {
+			break;
+		}
+	}
+	cout << x << endl;
+	return 0;
+}
